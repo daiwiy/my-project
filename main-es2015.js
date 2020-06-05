@@ -106,7 +106,7 @@ function AppComponent_pre_90_Template(rf, ctx) { if (rf & 1) {
 } }
 class AppComponent {
     constructor() {
-        this.title = 'my-project';
+        this.title = 'test-deploy';
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
@@ -533,7 +533,7 @@ _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__["platformBrowser"]().boot
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\works\angular\my-project\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! D:\works\angular\test-deploy\src\main.ts */"./src/main.ts");
 
 
 /***/ })

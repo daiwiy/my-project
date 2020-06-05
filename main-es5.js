@@ -202,7 +202,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var AppComponent = function AppComponent() {
       _classCallCheck(this, AppComponent);
 
-      this.title = 'my-project';
+      this.title = 'test-deploy';
     };
 
     AppComponent.ɵfac = function AppComponent_Factory(t) {
@@ -1059,7 +1059,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   /***/
   function _(module, exports, __webpack_require__) {
     module.exports = __webpack_require__(
-    /*! D:\works\angular\my-project\src\main.ts */
+    /*! D:\works\angular\test-deploy\src\main.ts */
     "./src/main.ts");
     /***/
   }
