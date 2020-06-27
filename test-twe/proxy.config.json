@@ -1,0 +1,13 @@
+{
+    "/api": {
+
+        "target": "http://dev.admin.carrots.ptteng.com/",
+
+        "secure": false,
+
+        "changeOrigin": true,
+        "pathRewrite": {
+            "^/api":""
+        }
+    }
+}

@@ -1,0 +1,10 @@
+<dl class="list-ul">
+  <dd *ngFor="let item of data;let i = index">
+    <ul (click)="show(i)">{{item.text}}</ul>
+
+    <dl [hidden]="!item.show" *ngFor="let x of item.children;let i = index">
+      <a [routerLink]="[x.link]" routerLinkActive="active"> {{x.text}}</a>
+    </dl>
+  </dd>
+</dl>
+

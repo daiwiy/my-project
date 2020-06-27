@@ -1,0 +1,30 @@
+.list-ul {
+  padding-top: 29px;
+  width: 250px;
+}
+.list-ul dd a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 42px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.list-ul dd a:hover {
+  background: #feae45;
+}
+.list-ul dd .active {
+  background: #feae45;
+}
+.list-ul dd ul {
+  height: 42px;
+  color: #ffffff;
+  margin: 0;
+  line-height: 42px;
+  width: 100%;
+  padding: 0;
+  text-align: center;
+}
+.list-ul dd ul:hover {
+  background: #feae45;
+}
